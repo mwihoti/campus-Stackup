@@ -1,0 +1,12 @@
+/home/mrdan/projects/stack/first_contract_aelf/src/obj/Debug/net6.0/MyCharacter.csproj.AssemblyReference.cache
+/home/mrdan/projects/stack/first_contract_aelf/src/obj/Debug/net6.0/MyCharacter.GeneratedMSBuildEditorConfig.editorconfig
+/home/mrdan/projects/stack/first_contract_aelf/src/obj/Debug/net6.0/MyCharacter.AssemblyInfoInputs.cache
+/home/mrdan/projects/stack/first_contract_aelf/src/obj/Debug/net6.0/MyCharacter.AssemblyInfo.cs
+/home/mrdan/projects/stack/first_contract_aelf/src/obj/Debug/net6.0/MyCharacter.csproj.CoreCompileInputs.cache
+/home/mrdan/projects/stack/first_contract_aelf/src/bin/Debug/net6.0/MyCharacter.deps.json
+/home/mrdan/projects/stack/first_contract_aelf/src/bin/Debug/net6.0/MyCharacter.dll
+/home/mrdan/projects/stack/first_contract_aelf/src/bin/Debug/net6.0/MyCharacter.pdb
+/home/mrdan/projects/stack/first_contract_aelf/src/obj/Debug/net6.0/MyCharacter.dll
+/home/mrdan/projects/stack/first_contract_aelf/src/obj/Debug/net6.0/refint/MyCharacter.dll
+/home/mrdan/projects/stack/first_contract_aelf/src/obj/Debug/net6.0/MyCharacter.pdb
+/home/mrdan/projects/stack/first_contract_aelf/src/obj/Debug/net6.0/ref/MyCharacter.dll

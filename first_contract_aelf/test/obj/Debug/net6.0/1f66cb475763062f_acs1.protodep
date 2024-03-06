@@ -1,0 +1,7 @@
+obj/Debug/net6.0/Protobuf/base/Acs1.cs: /home/mrdan/.nuget/packages/aelf.tools/1.0.2/build/native/include/google/protobuf/descriptor.proto\
+ /home/mrdan/.nuget/packages/aelf.tools/1.0.2/build/native/include/aelf/options.proto\
+ /home/mrdan/.nuget/packages/aelf.tools/1.0.2/build/native/include/google/protobuf/empty.proto\
+ /home/mrdan/.nuget/packages/aelf.tools/1.0.2/build/native/include/google/protobuf/wrappers.proto\
+ /home/mrdan/.nuget/packages/aelf.tools/1.0.2/build/native/include/aelf/core.proto\
+ Protobuf/message/authority_info.proto\
+ Protobuf/base/acs1.proto

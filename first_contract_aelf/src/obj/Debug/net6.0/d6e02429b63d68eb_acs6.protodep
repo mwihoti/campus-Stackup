@@ -1,0 +1,6 @@
+obj/Debug/net6.0/Protobuf/reference/Acs6.c.cs \
+obj/Debug/net6.0/Protobuf/reference/Acs6.cs: /home/mrdan/.nuget/packages/aelf.tools/1.0.2/build/native/include/google/protobuf/descriptor.proto\
+ /home/mrdan/.nuget/packages/aelf.tools/1.0.2/build/native/include/aelf/options.proto\
+ /home/mrdan/.nuget/packages/aelf.tools/1.0.2/build/native/include/aelf/core.proto\
+ /home/mrdan/.nuget/packages/aelf.tools/1.0.2/build/native/include/google/protobuf/wrappers.proto\
+ Protobuf/reference/acs6.proto
