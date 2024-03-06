@@ -1,0 +1,13 @@
+/home/mrdan/projects/campus-Stackup/capstone_aelf/src/bin/Debug/net6.0/StackUpDAO.deps.json
+/home/mrdan/projects/campus-Stackup/capstone_aelf/src/bin/Debug/net6.0/StackUpDAO.dll
+/home/mrdan/projects/campus-Stackup/capstone_aelf/src/bin/Debug/net6.0/StackUpDAO.pdb
+/home/mrdan/projects/campus-Stackup/capstone_aelf/src/obj/Debug/net6.0/StackUpDAO.csproj.AssemblyReference.cache
+/home/mrdan/projects/campus-Stackup/capstone_aelf/src/obj/Debug/net6.0/StackUpDAO.GeneratedMSBuildEditorConfig.editorconfig
+/home/mrdan/projects/campus-Stackup/capstone_aelf/src/obj/Debug/net6.0/StackUpDAO.AssemblyInfoInputs.cache
+/home/mrdan/projects/campus-Stackup/capstone_aelf/src/obj/Debug/net6.0/StackUpDAO.AssemblyInfo.cs
+/home/mrdan/projects/campus-Stackup/capstone_aelf/src/obj/Debug/net6.0/StackUpDAO.csproj.CoreCompileInputs.cache
+/home/mrdan/projects/campus-Stackup/capstone_aelf/src/obj/Debug/net6.0/StackUpDAO.sourcelink.json
+/home/mrdan/projects/campus-Stackup/capstone_aelf/src/obj/Debug/net6.0/StackUpDAO.dll
+/home/mrdan/projects/campus-Stackup/capstone_aelf/src/obj/Debug/net6.0/refint/StackUpDAO.dll
+/home/mrdan/projects/campus-Stackup/capstone_aelf/src/obj/Debug/net6.0/StackUpDAO.pdb
+/home/mrdan/projects/campus-Stackup/capstone_aelf/src/obj/Debug/net6.0/ref/StackUpDAO.dll
