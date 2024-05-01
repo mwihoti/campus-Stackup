@@ -1,17 +1,8 @@
 fn main() {
-    
-    let max_number = 300;
-    let mut even_numbers: Vec<i32> = Vec::new();
+    let cat_sound = "Meow";
+    let mut cow_sound = "Moo";
+    cow_sound = "Mooow";
+    println!("{}", cat_sound);
+    println!("{}", cow_sound);
 
-    for num in 1..=max_number {
-        if num % 2 == 0 {
-
-            even_numbers.push(num);
-        }
-    }
-   
-    for num in even_numbers.iter().rev() {
-        println!("{}", num);
-    }
-    println!("{:?}", even_numbers.iter().rev().collect::<Vec<&i32>>())
 }
