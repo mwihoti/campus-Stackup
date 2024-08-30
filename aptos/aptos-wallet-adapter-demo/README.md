@@ -1,11 +1,16 @@
 # Getting Started with Create React App
+Aptos Wallet Adapter:
 
-# project description
+Allows developer to connect decentralized application to various Aptos wallets.
+# Project Description
 > Key Features
+```
 . Connect Petra wallet to frontend Application.
 . Display connected account balances
 . Show current Connected networks
-. List amount of APT in connected accounts.
+. List amount of APT in connected accounts.```
+
+<img src="./public/C34_Q1_dan_m.png" alt="Demo image">
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
