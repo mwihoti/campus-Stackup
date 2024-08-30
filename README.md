@@ -5,6 +5,9 @@ Aptos Keyless SDK
 
 > Key features
 
+```
+signed in to dapp application using Google and Aptos Keyless to create account.
+```
 
 This template provides a minimal setup to get Keyless working on Vite with some ESLint rules.
  <img src="./public/C34_Q2_dan_m.png/" alt="Auth demo" >
