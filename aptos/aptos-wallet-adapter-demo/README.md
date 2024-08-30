@@ -8,7 +8,8 @@ Allows developer to connect decentralized application to various Aptos wallets.
 . Connect Petra wallet to frontend Application.
 . Display connected account balances
 . Show current Connected networks
-. List amount of APT in connected accounts.```
+. List amount of APT in connected accounts.
+```
 
 <img src="./public/C34_Q1_dan_m.png" alt="Demo image">
 
