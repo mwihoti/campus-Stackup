@@ -42,4 +42,4 @@ bun dev
 ```
 
 This will start a development server at `http://localhost:5173`.
-# This file contains Projects from stackup community 
+
