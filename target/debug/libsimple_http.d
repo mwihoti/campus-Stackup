@@ -1,0 +1,1 @@
+/home/getto/GetTo/projects/campus-Stackup/simple-http/target/debug/libsimple_http.rlib: /home/getto/GetTo/projects/campus-Stackup/simple-http/src/http/mod.rs /home/getto/GetTo/projects/campus-Stackup/simple-http/src/http/request.rs /home/getto/GetTo/projects/campus-Stackup/simple-http/src/lib.rs
