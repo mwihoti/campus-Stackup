@@ -1,14 +1,45 @@
-use std::{collections::HashMap, str::FromStr};
+use std::{collections::HashMap, io, str::FromStr};
 
 #[derive(Debug)]
 pub struct HttpRequest {
     method: Method,
-    route: Resource,
+    resource: Resource,
     version: Version,
-    header: HttpHeader,
-    request_body: String
+    headers: HttpHeader,
+    pub request_body: String
 }
-
+impl HttpRequest {
+    pub fn new(request: &str) -> io::Result<HttpRequest> {
+        let method: Method = Method::new(request);
+        let resource: Resource = if let Some(resource) = Resource::new(request) {
+            resource
+        } else {
+            Resource { path: "".to_string() }
+        };
+        let version: Version = Version::new(request).map_err( |err | {
+            io::Error::new(io::ErrorKind::InvalidData, err.msg)})?;
+        let headers: HttpHeader = if let Some(headers) = HttpHeader::new(request)  {
+            headers
+        } else {
+            HttpHeader {
+                headers: HashMap::new()
+            }
+        };
+        let request_body: String = if let Some((_header, body)) = request.split_once("\r\n\r\n") {
+            body.to_string()
+        } else {
+            String::new()
+        };
+        
+        Ok(HttpRequest {
+            method,
+            resource,
+            version,
+            headers,
+            request_body
+        })
+    }
+}
 
 #[derive(Debug)]
 struct HttpHeader {
@@ -43,7 +74,7 @@ enum Version {
 
 #[derive(Debug)]
 struct VersionError {
-    msg: String
+    msg: String,
 }
 
 impl Display for VersionError {
@@ -52,11 +83,13 @@ impl Display for VersionError {
     }
 }
 
-imp Version {
+
+impl Version {
     pub fn (request: &str) -> Result<Self, VersionError> {
         Version::from_str(request)
     }
 }
+
 
 impl FromStr for Version {
     type Err = VersionError;

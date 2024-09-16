@@ -8,6 +8,8 @@ use std::{
     }
     
 };
+use simple_http::http::request;
+
 fn create_sockect() -> SocketAddr {
     SocketAddr::new(std::net::IpAddr::V4(Ipv4Addr::LOCALHOST), 5500)
 }
